@@ -1,0 +1,58 @@
+.mainContent {
+    width: 75%;
+    display: inline-grid; 
+}
+table{
+    width: 100%;
+}
+thead{
+    background: #E2E8F0;
+    color: #121212;
+    height: 55px;
+    width: 100%;
+}
+tr>td{
+    height: 50px;
+    text-align: center;
+
+}
+.foot{
+    background-color: #F8FAFC;
+    height: 70px;
+    padding: 15px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.downloadexcel{
+    background-color: #4F46E5;
+    border-radius: 20px;
+    height: 40px;
+    padding: 5px 20px;
+    border: transparent;
+    color: #fff;
+    margin: 20px;
+}
+.btnsearch{
+    background-color: #4F46E5;
+    padding: 5px;
+    border: transparent;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.btnsearch img{
+    width:20px;
+}
+.searchInput{ 
+    border: transparent;
+    box-shadow: 1px 1px 10px grey;
+    padding: 10px 20px;
+    margin: 0px 20px;
+    border-radius: 20px;
+    width: 230px;
+}
+.colorGreen{
+    color:#2B825C
+
+}

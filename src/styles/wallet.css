@@ -1,0 +1,152 @@
+.mainContent {
+    width: 70%;
+    display: inline-grid;
+ 
+}
+.mg2{
+    margin-left: 15px;
+    padding: 15px;
+    margin-right: 15px;
+}
+.grid1x3 {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 150px;
+    grid-gap: 1rem;
+}
+.grid3x3{
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: 150px;
+    grid-gap: 16px;
+}
+.padding30x10 {
+    padding: 30px 10px;
+}
+
+.walletImage, .walletImage2 {
+    width: 60px;
+    background-color: #F8FAFC;
+    padding: 9px;
+    border-radius: 50px;
+}
+
+.walletImage2 {
+    transform: rotate(180deg);
+}
+
+.displayCenter {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.borderGrey {
+    border: 1px solid #E2E8F0;
+    border-radius: 10px;
+}
+
+h5,h3,h4 {
+    color: #344055
+} 
+.h1,h2{
+    color: #121212;
+}
+h3{
+    font-size: 1.6em;
+}
+p{
+    color:#5B6776
+}
+h4{
+    font-size: 1.4em;
+}
+h5{
+    font-size: 1em;
+}
+p{
+    font-size: 14px;
+    padding:10px 0px;
+}
+.displayLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.cardImage{
+    width: 35px;
+    background-color: #F8FAFC;
+    padding: 7px;
+    border-radius: 50px;
+    margin-right:15px;
+}
+.displayFlexs{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+.walletMainCart{
+    margin-top: 15px;
+    width: 95%;
+}
+.displayFlexSpace{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar{
+
+    background-color: #F7F8FD
+    ;
+    width: 100%;
+    height: 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    position: relative;
+
+}
+.bar::before{
+    content: " ";
+    position: absolute;
+    background-color: #4F46E5
+    ;
+    height: 10px;
+    width: 35%;
+    border-radius: 20px;
+}
+.padding10x10{
+    padding:10px;
+}
+ .addWallet{
+    background: #E2E8F0;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 100%;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .iconPlus{
+    color: #fff;
+    border-radius: 50px;
+    background: #4F46E5;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+ }
